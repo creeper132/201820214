@@ -1,0 +1,94 @@
+ /* 重置默认样式 */
+ *{
+    margin:0;
+    padding: 0;
+}
+h1{text-align: center; font-family: "宋体"; 
+}
+
+ h2{text-align: right; 
+    font-family: "宋体";
+    margin-right:15px;
+    margin-top:0; color:#3e3b3b;
+    font-size: 15px;
+}
+body{ 
+background:url("羊村.jpg")
+no-repeat;
+background-size: 1300px 650px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -10;
+object-fit: cover;
+ }
+.list{
+   width: 1250px;
+   height:550px;
+   display: flex;
+   margin:20px auto
+   ;
+background-color: #ffffff90;
+   flex-wrap: wrap;
+}
+.list li{
+    width:310px;
+    height:250px;
+    background-color:#ffffff90;
+    
+    border-radius: 10px;
+    margin-top:5px;
+    box-shadow: 0 0 0px #dedede;
+
+    list-style: none;
+    transition: all .2s;/*控制时间*/
+}
+.list img{
+    margin-left: 20px;
+    margin-top:14px;
+}
+
+.title{
+    font-size:20px;
+    color:#333333;
+}
+.smalltitle{
+   
+    
+    text-align: right;
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    color: rgb(6, 6, 6);
+    
+
+}
+.list li:hover{
+    box-shadow: 10px 10px 10px #fff;
+    transform:scale(1.1);
+}
+.nav {
+    height: 41px;
+    border-top: 3px solid #b4fffa;
+    border-bottom: 1px solid #edeef0;
+    background-color: #fcfcfc;
+    margin-top: 0px;
+    line-height: 41px;
+}
+
+.nav a {
+   
+    display: inline-block;
+    height: 41px;
+    font-size: 15px;
+    color: #4c4c4c;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+.nav a:hover {
+    background-color: #fcfcfc;
+    color: #93d9eb;
+}
